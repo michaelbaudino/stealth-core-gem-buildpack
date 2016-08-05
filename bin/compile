@@ -24,4 +24,4 @@ if [ -z "BUNDLE_GEM__FURY__IO" ]; then
   exit 0
 fi
 
-cd $build_dir && gem install core --ignore-dependencies --no-document --source https://${BUNDLE_GEM__FURY__IO}@gem.fury.io/app28023208_heroku_com/
+cd $build_dir && gem install core --vendor --ignore-dependencies --no-document --source https://${BUNDLE_GEM__FURY__IO}@gem.fury.io/app28023208_heroku_com/
