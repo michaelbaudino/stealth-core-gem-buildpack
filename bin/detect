@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+if [ -n "$BUNDLE_GEM__FURY__IO" ]; then
+  echo "Kyero stealth core gem"
+  exit 0
+else
+  echo "no"
+  exit 1
+fi
